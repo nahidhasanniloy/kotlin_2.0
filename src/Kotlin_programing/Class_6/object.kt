@@ -4,6 +4,7 @@ fun main(){
 
     var shirt = shirt()
     shirt.produce()
+    shirt.consume()
 //   println(shirt.Brand)
 
 
@@ -21,8 +22,8 @@ class shirt {
 
         println("clothes")
     }
-    fun consume (){
-
+    fun consume(){
+    println( " hey world ")
 
 
     }

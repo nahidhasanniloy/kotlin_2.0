@@ -25,6 +25,7 @@ fun next1 (){
 
 
 
+
 fun  next3(){
      println(" Enter Your Number :")
       val no = readln().toInt()

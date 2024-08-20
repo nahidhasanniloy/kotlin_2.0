@@ -12,7 +12,28 @@ val inner= innnerClass().getData()
 
     val zinna = zinan().getinfo()
     zinna.getdataall()
+    val jj = adnannn().getgot()
+    jj.all()
+    val kk =heyadnan().getalldataview()
+    kk.getttdata()
 
+}
+class  heyadnan {
+    val nahid = " jjjjshkjdfhjh"
+    inner class getalldataview{
+        fun getttdata(){
+            println(" hey jogon")
+        }
+    }
+}
+
+class  adnannn {
+    val namee :String = " jibooon"
+    inner class getgot{
+        fun all(){
+            println( " adnan nahid ")
+        }
+    }
 }
 
 class innnerClass{
@@ -54,6 +75,9 @@ class adnan {
 
 
 }
+
+
+
 
 
 class zinan {

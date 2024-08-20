@@ -2,13 +2,21 @@ package Kotlin_programing.Class_4
 
 fun  main(){
 
-    val name : String? = "Adnan nahid"
-    println(name?.length) // Out put - 11
+    val name : String = "Adnan nahid"
+    println(name.length) // Out put - 11
+
+    var sala : String = " shala "
+    println( sala.length)
 
     // Nullable type
     var nullableString: String? = "Hello"
     nullableString = null
     println(nullableString?:"Invalid This")
+
+
+    var adnan :String? = " hey"
+    adnan = null
+    println( adnan?:" Invalid")
 
     // Safe call
 

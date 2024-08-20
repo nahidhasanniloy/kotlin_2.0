@@ -7,10 +7,6 @@ fun main (){
     val info  =class_use_perameter()
     println(info)
 
-
-
-
-
 }
 
 abstract class human (){
